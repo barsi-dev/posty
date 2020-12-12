@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+}
+#nav {
+    background-color: #333;
+}
+
+nav {
+    margin: auto;
+    width: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: white;
+}
+
+nav button {
+    padding: 14px 15px;
+    background-color: #333;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+nav input {
+    margin-right: 5px;
+    padding: 0px 3px;
+    height: 40px;
+    color: white;
+    border: 1px solid #111;
+    background-color: #333;
+}
+
+nav button:hover {
+    background-color: #111;
+}
+
+nav #login {
+    margin-top: 4px;
+    float: right;
+    text-align: center;
+}
+
+nav #login button {
+    border-radius: 3px;
+    outline: white;
+    padding: 10px 15px;
+    background-color: #111;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+nav #login button:hover {
+    background-color: #111;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+    border: dotted;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/* ================
+====== BODY =======
+===================*/
+
+#main-field {
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.posts {
+    margin: 5px;
+    padding-left: 5px;
+    width: 50%;
+    background-color: white;
+}
+
+.posts button {
+    color: rgb(0, 116, 248);
+    background-color: #fff;
+    border: 0;
+}
+
+/* ================
+====== CLASSES ====
+===================*/
+.margin-l-5 {
+    margin-left: 5px;
+}
+.border-red {
+    border-color: red;
+}
+
+.float-r {
+    float: right;
+}
+
+.text-align-l {
+    text-align: left;
+}
+
+.color-red {
+    color: red;
+}
+
+.block {
+    display: block;
+}
+
+.pad-none {
+    padding: 0px;
+}
